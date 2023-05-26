@@ -1,0 +1,42 @@
+body { 
+	margin: 0 auto;
+	padding: 15px;
+	font-family: sans-serif;
+}
+
+.box {
+	border: solid 2px #333;
+	padding: 20px;
+	margin: 20px;
+}
+
+@media screen and (min-width: 900px) {
+	body {
+		background-color: yellow;
+	}
+	.box {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 899px) {
+	body {
+		background-color: cyan;
+	}
+	.box > p{
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	body {
+		background-color: salmon;
+	}
+	.box > p {
+		justify-content: center;
+		align-content: center;
+	}
+}
+

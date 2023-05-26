@@ -1,0 +1,147 @@
+body {
+	font-family: sans-serif;
+	margin: 0 ;
+	padding: 0 ;
+	background:linear-gradient(72deg,darkgray 60%, black 99%);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+header {
+	background-color: grey;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+header img{
+	border-radius: 50px;
+
+}
+
+nav#Menu ul{
+	list-style: none;
+	text-transform: uppercase;
+}
+
+nav#Menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 10px;
+	transition: background-color 1s;
+}
+
+nav#Menu{ 
+	display: block;
+	margin-top: 12%;
+}
+nav#Menu li:hover {
+	background-color: #606060; 
+}
+
+nav#Menu h2{
+	display: none;
+}
+nav#Menu a{
+	color: #000000;
+	text-decoration: none;
+}
+nav#Menu a:hover {
+	color: #ffffff;
+}
+.nav {
+	display: flex;
+
+}
+.butaocomborda{
+	border-color: red!important;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	width: 150px;
+	border:solid;
+
+}
+
+.meio{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+	align-items: center;
+}
+
+.meio img{
+	border-radius: 20px;
+}
+.icone{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1000px;
+	grid-gap: 20px;
+	margin: 0 auto;
+	padding: 150px;
+	align-items: center;
+}
+
+.icone > div:nth-child(n + 4) {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 100px;
+	align-items: center;
+	
+}
+
+.inf{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;	
+}
+.inf img{
+	border-radius: 20px; 
+}
+
+
+.top{
+	align-items: center;
+	text-align: center;
+}
+
+.rod{
+	align-items: center;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+@media screen and (max-width: 700px) {
+	body {
+		background-color: black!important;
+		color: red;
+	}
+}
+
+.slider{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;	
+	list-style: none;
+}
+.tex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;	
+	list-style: none;
+}
+footer{
+	text-align: center;
+}
